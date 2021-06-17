@@ -1,0 +1,618 @@
+@import url(grid.css);
+@import url(spacing.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
+
+.col-3 {
+    padding-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.nav {
+    display: block;
+    padding: 40px 0;
+    text-align: right;
+}
+
+.dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #f16821;
+}
+
+.nav>.nav__link:not(:last-child) {
+    margin-right: 50px;
+}
+
+.col-9 :hover {
+    color: #f16821;
+    transition: 0.4s;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/xhero_2.jpg.pagespeed.ic.CMlBvkznrC.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.intro__content {
+    width: 60%;
+}
+
+.intro__title {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 96px;
+    color: #fff;
+}
+
+.intro p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.intro__button {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 18px;
+}
+
+.intro__btn {
+    padding: 15px 35px;
+    border: 2px solid white;
+    font-size: 12px;
+    color: white;
+}
+
+.intro__btn__white {
+    background-color: white;
+    color: black;
+    margin-left: 5px;
+}
+
+.intro__btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.intro__btn__white:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.section__title h3 {
+    font-size: 13px;
+    color: #adb5bd;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.section__center__title h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.section_text p {
+    width: 800px;
+    height: 180px;
+    display: flex;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 150px;
+    line-height: 30px;
+    left: 0;
+    right: 0;
+}
+
+.producs_item_1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.producs_item_1 h3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.producs_item_1 p {
+    margin: 15px;
+}
+
+.products_image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.products_name {
+    font-weight: 100;
+}
+
+.products_name:hover {
+    color: #f16821;
+    transform: 0.4s;
+}
+
+.star_icon i {
+    color: #f89d13;
+    font-size: 16px;
+}
+
+.five {
+    margin-right: 15px;
+    color: black;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.products_buttons {
+    padding-top: 13px;
+}
+
+.products_item_button_1 {
+    border: 2px solid black;
+    padding: 5px 15px;
+    margin: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.products_item_button_1:hover {
+    background-color: white;
+    color: black;
+}
+
+.products_item_button_2 {
+    border: 2px solid black;
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.products_item_button_2:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.products_label {
+    background-image: url(../image/xhero_2.jpg.pagespeed.ic.CMlBvkznrC.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    height: calc(20vh);
+    text-align: center;
+}
+
+.products_label h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.products_form {
+    font-size: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.products_form input {
+    padding: 10px;
+    width: 521px;
+    background: none;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.products_form .products_btn {
+    background: none;
+    border: 2px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.products_label .products_btn {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 18px;
+}
+
+.products_label .products_btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.products_label p {
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.test {
+    padding: 50px 30px;
+    background-color: white;
+}
+
+.product_titles {
+    height: 250px;
+    text-align: center;
+}
+
+.product_titles h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 13px;
+    color: #adb5bd;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product_titles h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.product_titles p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.product_image {
+    background-image: url(../image/products/products_item_1.webp);
+    width: 501px;
+    height: 501px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_text {
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 1.5rem
+}
+
+.second_text {
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 1.5rem
+}
+
+.about_product h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 2.6;
+}
+
+.about_product .price_h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price {
+    margin-top: 15px;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.product_value {
+    margin-right: .5rem!important;
+}
+
+.details_btn {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    cursor: pointer;
+    height: 35px;
+    width: 170px;
+}
+
+.details_btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.card_btn {
+    background-color: black;
+    color: rgb(255 253 253);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    cursor: pointer;
+    height: 35px;
+    width: 170px;
+}
+
+.card_btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.product_image_2 {
+    background-image: url(../image/products/products_item_6.webp);
+    width: 501px;
+    height: 501px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_text {
+    position: relative;
+}
+
+.about_us_girl {
+    width: 100%;
+}
+
+.trusted_merchant {
+    width: 517px;
+    height: 110px;
+    bottom: 0px;
+    right: -25px;
+    background-color: #46ddb0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+span:first-child {
+    font-size: 53px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+span:nth-child(2) {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 25px
+}
+
+.about_us_information_block {
+    display: flex;
+    justify-content: flex-end;
+    height: 56%;
+}
+
+.about_us_information {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 76%;
+}
+
+.merchant_company {
+    color: #adb5bd;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.about_us {
+    color: #000;
+    font-size: 40px;
+}
+
+.text_of_about_us {
+    color: #000;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-top: 12px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.about_us_btn {
+    font-weight: 700;
+    width: 128px;
+    height: 35px;
+    font-size: 13px;
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+}
+
+.about_us_btn:hover {
+    color: black;
+    background-color: white;
+    transition: all is ease 0s;
+}
+
+.team_leadership_block {
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+
+.team_leadership {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.team_leadership span {
+    color: gray;
+    font-size: 14px;
+    margin: auto;
+    letter-spacing: 6px
+}
+
+.team_leadership h2 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.John_Rooster_block {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.John_Rooster {
+    width: 100%;
+    padding: 7px
+}
+
+.founder {
+    color: #CCCC;
+}
+
+.team_leadership_icons_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team_leadership_icons {
+    display: flex;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.team_leadership_icons li {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    color: white;
+}
+
+.team_leadership_icons li:hover {
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.Tom_Sharp_block {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.Tom_Sharp {
+    width: 100%;
+    padding: 7px
+}
+
+.Winston_Hodson_block {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.Winston_Hodson {
+    width: 100%;
+    padding: 7px
+}
+
+.leadership_section {
+    padding-bottom: 80px;
+}
+
+.special {
+    background-image: url(../image/xhero_2.jpg.pagespeed.ic.CMlBvkznrC.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.special_promo {
+    font-size: 13px;
+    color: #adb5bd;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.summer_sale {
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.special_promo_text {
+    font-size: 20px;
+    font-weight: 300;
+}
