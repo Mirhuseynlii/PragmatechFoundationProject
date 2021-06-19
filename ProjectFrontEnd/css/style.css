@@ -431,7 +431,7 @@ a {
     position: absolute;
 }
 
-span:first-child {
+.trusted_merchant span:first-child {
     font-size: 53px;
     color: white;
     font-family: sans-serif;
@@ -685,10 +685,6 @@ span:nth-child(2) {
     transition: 0.4s;
 }
 
-.ervices_section {
-    background-color: gray;
-}
-
 .our_services {
     font-size: 13px;
     color: #adb5bd;
@@ -798,4 +794,71 @@ span:nth-child(2) {
     letter-spacing: .2em;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.testimionals_text h4 {
+    padding-bottom: 50px;
+}
+
+.blog {
+    background-color: white;
+}
+
+.blog_title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blog_title h3 {
+    font-size: 13px;
+    color: #adb5bd;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.blog_title h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.blog_text {
+    padding-top: 20px;
+}
+
+.blog_span {
+    padding-top: 10px;
+    display: flex;
+}
+
+.blog_span span {
+    font-size: 14px;
+    color: gray;
+}
+
+.blog_span p {
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.blog_span p a {
+    color: #f16821;
+}
+
+.blog_information {
+    width: 307px;
+}
+
+.blog_information p {
+    padding-top: 20px;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.blog_information_contiune p a {
+    color: #f16821;
 }
