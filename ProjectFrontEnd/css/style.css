@@ -256,6 +256,7 @@ a {
     border: 2px solid white;
     font-size: 16px;
     font-weight: 400;
+    outline: none;
 }
 
 .products_form .products_btn {
@@ -594,6 +595,15 @@ span:nth-child(2) {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.summer_sale_block {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
 }
 
 .special_promo {
@@ -603,16 +613,116 @@ span:nth-child(2) {
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
+    padding-top: 50px;
 }
 
 .summer_sale {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.special_promo_text {
+    width: 555px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+
+.time_block {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 115px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box_item {
+    padding: 10px;
+    background: white;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.box_item span {
+    color: #46ddb0;
+    text-align: center;
+}
+
+.box_item h4 {
+    margin-top: 10px;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.special_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.special_btn {
+    padding: 15px 50px;
+    border: 2px solid white;
+    font-size: 15px;
+    color: white;
+}
+
+.special_btn:hover {
+    border-color: #fff;
+    background: #fff;
+    color: #000;
+    transition: 0.4s;
+}
+
+.our_services {
+    font-size: 13px;
+    color: #adb5bd;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+
+.we_offer_services {
     color: #000;
     font-size: 40px;
     font-weight: 900;
     text-align: center;
 }
 
-.special_promo_text {
-    font-size: 20px;
-    font-weight: 300;
+.offer_block {
+    display: flex;
+}
+
+.business_consulting {
+    width: 250px;
+    margin-top: 55px;
+    line-height: 1.7;
+    color: gray;
+    display: inline-block;
+}
+
+.business_consulting p {
+    margin-top: 12px;
+}
+
+.business_consulting a {
+    color: #f16821;
+}
+
+.learn_more {
+    margin-top: 20px;
 }
