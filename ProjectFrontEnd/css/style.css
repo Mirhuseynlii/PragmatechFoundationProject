@@ -685,6 +685,10 @@ span:nth-child(2) {
     transition: 0.4s;
 }
 
+.ervices_section {
+    background-color: gray;
+}
+
 .our_services {
     font-size: 13px;
     color: #adb5bd;
@@ -705,24 +709,34 @@ span:nth-child(2) {
 
 .offer_block {
     display: flex;
+    padding: 32px 0px;
 }
 
-.business_consulting {
-    width: 250px;
-    margin-top: 55px;
-    line-height: 1.7;
-    color: gray;
-    display: inline-block;
+.offer_icon {
+    padding: 19px 25px;
 }
 
-.business_consulting p {
-    margin-top: 12px;
-}
-
-.business_consulting a {
+.offer_icon i {
+    font-size: 40px;
     color: #f16821;
 }
 
-.learn_more {
-    margin-top: 20px;
+.adress_part {
+    padding: 20px 2px;
+    color: gray;
+}
+
+.adress_part h3 {
+    margin-bottom: 15px;
+    color: gray;
+}
+
+.adress_part p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.adress_part a {
+    color: #f16821;
+    text-decoration: none;
 }
