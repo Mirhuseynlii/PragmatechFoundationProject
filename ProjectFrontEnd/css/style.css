@@ -1018,7 +1018,7 @@ span:nth-child(2) {
 .footer-last-text {
     display: flex;
     justify-content: center;
-    color: #999999;
+    color: #737373;
     font-family: sans-serif;
     letter-spacing: 1px;
     height: 100px;
@@ -1026,4 +1026,13 @@ span:nth-child(2) {
     padding: 100px;
     margin-left: 100px;
     font-size: 16px;
+}
+
+.colorlib {
+    color: #999999;
+}
+
+.colorlib:hover {
+    color: black;
+    cursor: pointer;
 }
