@@ -802,6 +802,7 @@ span:nth-child(2) {
 
 .blog {
     background-color: white;
+    margin-bottom: 50px;
 }
 
 .blog_title {
@@ -861,4 +862,168 @@ span:nth-child(2) {
 
 .blog_information_contiune p a {
     color: #f16821;
+}
+
+.form_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.form_title h3 {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #adb5bd;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.form_title h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.form {
+    padding: 10px;
+    color: red;
+}
+
+.footer_about_us {
+    width: 250px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.footer_about_us h2 {
+    font-family: sans-serif;
+    font-size: 23px;
+}
+
+.footer_about_us p {
+    font-size: 16px;
+    color: #999999;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.footer_quick_links h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.footer_quick_links li {
+    list-style: none;
+}
+
+.footer_quick_links a {
+    text-decoration: none;
+    color: #999999;
+    line-height: 2.3;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.footer_quick_links a:hover {
+    color: black;
+    transition: all ease 0.4s;
+}
+
+.footer_quick_links h2 {
+    margin-bottom: 20px;
+}
+
+.footer_follow_us {
+    margin-top: -39px;
+}
+
+.footer_follow_us h2 {
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.footer_icons i {
+    color: #999999;
+    width: 200px;
+}
+
+.footer_icons i:hover {
+    color: black;
+    transition: all ease 0.4s
+}
+
+.footer_feautured_product {
+    margin-top: -39px;
+}
+
+.footer_feautured_product h2 {
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.footer_shoes_photo {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_feautured_product h5 {
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer_feautured_product span {
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.footer_button {
+    margin-top: 35px;
+}
+
+.footer_button a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: 2px solid black;
+}
+
+.footer_button a:hover {
+    color: #000;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.footer-last-text {
+    display: flex;
+    justify-content: center;
+    color: #999999;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    height: 100px;
+    margin-top: 100px;
+    padding: 100px;
+    margin-left: 100px;
+    font-size: 16px;
 }
