@@ -182,7 +182,7 @@ a {
 }
 
 .five {
-    margin-right: 15px;
+    margin-right: 5px;
     color: black;
 }
 
@@ -827,6 +827,7 @@ span:nth-child(2) {
 
 .blog_text {
     padding-top: 20px;
+    font-weight: 300;
 }
 
 .blog_span {
@@ -1016,12 +1017,14 @@ span:nth-child(2) {
     font-family: sans-serif;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-weight: 300;
 }
 
 .footer_feautured_product span {
-    font-size: 23px;
+    font-size: 15px;
     font-family: sans-serif;
     margin-bottom: 15px;
+    font-weight: bolder;
 }
 
 .footer_button {
@@ -1056,6 +1059,10 @@ span:nth-child(2) {
     padding: 100px;
     margin-left: 100px;
     font-size: 16px;
+}
+
+.footer-last-text i {
+    padding: 0 5px;
 }
 
 .colorlib {
